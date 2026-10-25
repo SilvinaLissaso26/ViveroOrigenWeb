@@ -1,0 +1,74 @@
+/* Paleta */
+/*
+verde lima claro: rgb(210, 251, 164)
+verde oscuro: rgb(61, 85, 12)
+verde natural: rgb(94, 178, 41)
+verde lima intenso: rgb(224, 252, 0)
+naranja claro: rgb(248, 215, 116)
+naranja pastel: rgb(243, 195, 131)
+amarillo pastel: rgb(253, 243, 140)
+bordó: rgb(146, 18, 79)
+blanco: rgb(255, 255, 255)
+/*
+/* Familia tipográfica /*
+/* font-family: "IBM Plex Serif", serif;  */
+
+/* Estilos generales */
+body {
+    font-family: "IBM Plex Serif", serif;
+    line-height: 1.6;
+    background-color: rgb(253, 243, 140);
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Color de títulos */
+
+h1, h2 {
+    color: rgb(61, 85, 12);
+}
+h1 {
+    font-size: 2.3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+
+/* estilos de header y footer */
+
+header, footer {
+    color: rgb(61, 85, 12);
+    background-color: rgb(243, 195, 131);
+    background-image: url("../img/fondo2.png");
+}
+
+/* 1 rem = 16 px */
+
+header a {
+    font-size: 1.8rem;
+}
+
+/* Estilos de main */
+
+.tarjeta-index {
+    background-color: rgb(243, 195, 131);  
+}
+.tarjeta-index {
+    font-size: 1.2rem;
+}
+
+
+
+
+

@@ -1,0 +1,16 @@
+/* Paleta */
+/*
+verde lima claro: RGB (210, 251, 164)
+verde oscuro: RGB (61, 85, 12)
+verde natural: RGB (94, 178, 41)
+verde lima intenso: RGB (224, 252, 0)
+naranja claro: RGB (248, 161, 46)
+amarillo pastel: RGB (255, 241, 99)
+bordó: RGB (146, 18, 79)
+blanco: RGB (255, 255, 255)
+/*
+
+
+
+
+
