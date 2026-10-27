@@ -218,4 +218,91 @@ header a {
     }
 }
 
+/* Header */
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 15px;
+    background-color: rgb(243, 195, 131);
+    background-image: url("../img/fondo2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/* Control del tamaño del logo para que no desborde */
+
+header > img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+
+
+/* En mobile: enlaces apilados verticalmente y centrados */
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: rgb(61, 85, 12);
+    font-weight: 600;
+}
+
+/* HEADER: Tablet y Desktop (768px a 1023px) */
+
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        gap: 10px;
+    }
+
+    header > img {
+        max-width: 150px;
+    }
+    
+
+    header nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+
+    header nav a {
+        font-size: 0.95rem;
+    }   
+}
+
+/* NOTEBOOK Y DESKTOP: Desde 1024px */
+
+@media (min-width: 1024px) {
+    header {
+        padding: 20px 35px;
+    }
+    header > img {
+        max-width: 200px; /* Logo más grande en pantallas amplias */
+    }
+    header nav ul {
+        gap: 22px;        /* Más aire entre pestañas */
+    }
+    header nav a {
+        font-size: 1.05rem;
+    }
+}
