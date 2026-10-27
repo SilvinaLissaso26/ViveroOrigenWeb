@@ -55,7 +55,6 @@ h2 {
     font-size: 2rem;
 }
 
-
 /* estilos de header y footer */
 
 header {
@@ -90,7 +89,6 @@ footer {
     padding: 2rem 0;
 }
 
-
 footer ul {
     list-style: none;
     display: flex;
@@ -100,7 +98,6 @@ footer ul {
     margin-top: 2rem;
     padding: 0;
 }
-
 
 /* Main */
 
@@ -133,7 +130,6 @@ main h3 {
     text-align: center;
 }
 
-
 /* 1 rem = 16 px */
 
 header a {
@@ -158,5 +154,68 @@ header a {
 }
 
 
+
+/* Reseteo */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tarjeta-index img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos base: mobile (1 columna, una debajo de la otra) */
+
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "tarjeta1"
+        "tarjeta2"
+        "tarjeta3";
+    gap: 20px;
+}
+
+
+/* Estilos de las tarjetas */
+
+.tarjeta-1 {
+    grid-area: tarjeta1;
+    background-color: rgb(224, 120, 8);
+}
+
+.tarjeta-2 {
+    grid-area: tarjeta2;
+    background-color: rgb(193, 239, 7);
+}
+
+.tarjeta-3 {
+    grid-area: tarjeta3;
+    background-color: rgb(249, 111, 41);
+}
+
+
+/* Tablet: 2 columnas */
+
+@media (min-width: 768px) {
+    .contenedor-tarjetas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Versión escritorio: 3 tarjetas en fila horizontal */
+
+@media (min-width: 1024px) {
+    .contenedor-tarjetas {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "tarjeta1 tarjeta2 tarjeta3";
+    }
+}
 
 
