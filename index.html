@@ -1,0 +1,137 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <!--Nombre del sitio y página-->
+    <title>Vivero Origen | Inicio</title>
+</head>
+
+<body>
+    <header>
+        <!-- logo -->
+        <img src="./img/logo vivero origen.png" alt="logo del vivero">
+        <!-- Navegacion -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li><a href="./pages/nosotros.html">Nosotros</a>
+                </li>
+                <li><a href="./pages/plantas.html">Plantas</a>
+                </li>
+                <li><a href="./pages/guias.html">Guias</a>
+                </li>
+                <li><a href="./pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contenido principal-->
+    
+    <main>
+        <section class="seccion-carrusel">
+    <div id="carouselVivero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselVivero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselVivero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselVivero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/N.png" class="d-block w-100" alt="Sansevieria Trifasciata">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sansevieria Trifasciata</h5>
+                    <p>Ideal para principiantes y espacios con luz media o baja.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/L.png" class="d-block w-100" alt="Potus Plateado">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Potus Plateado</h5>
+                    <p>Planta colgante de rápido crecimiento.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/O.png" class="d-block w-100" alt="Zamioculca">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Zamioculca</h5>
+                    <p>Elegancia con mínimo requerimiento de agua.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselVivero" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselVivero" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</section>
+
+        <h1>Vivero Origen: tu rincón verde en casa</h1>
+
+        <section>
+            <h2>Nuestras especies recomendadas</h2>
+            <div class="contenedor-tarjetas">
+                <article class="tarjeta-index tarjeta-1">
+                    <h3>Sansevieria Trifasciata</h3>
+                    <img src="./img/N.png" alt="plantera con Sansevieria">
+                    <p>Ideal para principiantes y espacios con luz media o baja. Requiere riego mínimo.</p>
+                </article>
+
+                <article class="tarjeta-index tarjeta-2">
+                    <h3>Potus Plateado</h3>
+                    <img src="./img/L.png" alt="potus de hojas plateadas">
+                    <p>Planta colgante de rápido crecimiento y gran resistencia en ambientes interiores. Luz indirecta,
+                        con
+                        escaso requerimiento de agua.</p>
+                </article>
+
+                <article class="tarjeta-index tarjeta-3">
+                    <h3>Zamioculca</h3>
+                    <img src="./img/O.png" alt="plantera con Zamioculca">
+                    <p>La preferida para el interior.Requiere luz indirecta, con escaso riego.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.instagram.com/?hl=en" target="_blank"><img src="./img/logo-Instagram1.png"
+                        alt="logo insta en footer"></a></li>
+            <li><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_LA"
+                    target=" _blank"><img src="./img/logo-Facebook1.png" alt="logo facebook en footer"></a></li>
+            <li><a href="https://www.tiktok.com/es/" target=" _blank"><img src="./img/logo-TikTok1.png"
+                        alt="logo tik tok en footer"></a></li>
+            <li><a href="https://web.whatsapp.com/" target=" _blank"><img src="./img/logo-WhatsApp1.png"
+                        alt="logo whatsapp en footer"></a></li>
+        </ul>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5690.885352941883!2d-60.59289007047242!3d-31.992876330711283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5cb390f7302d5%3A0xa5cf320d47255559!2sORIGEN%20-%20vivero!5e0!3m2!1ses!2sar!4v1792565048197!5m2!1ses!2sar"
+            allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <p>2026 Vivero Origen. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
