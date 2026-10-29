@@ -9,10 +9,9 @@ naranja pastel: rgb(243, 195, 131)
 amarillo pastel: rgb(253, 243, 140)
 bordó: rgb(146, 18, 79)
 blanco: rgb(255, 255, 255)
-/*
+*/
 /* Familia tipográfica /*
 /* font-family: "IBM Plex Serif", serif;  */
-
 
 
 /* Estilos generales */
@@ -67,8 +66,9 @@ header {
 }
 
 header nav {
-    padding: 8rem;
+    padding: 1rem 1.25rem; /* ~16px arriba/abajo y 20px a los costados */
 }
+
 
 header nav ul {
     list-style: none;
