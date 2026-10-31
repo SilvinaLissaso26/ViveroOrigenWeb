@@ -4,7 +4,7 @@ Proyecto desarrollado para el curso de Desarrollo Web en Coderhouse.
 
 ## 🌐 Sitio Web Publicado
 Podés ver el sitio en vivo acá:
-👉 [Visitar Vivero Origen](https://silvinalissaso.github.io/vivero-origen/)
+👉 [Visitar Vivero Origen](https://silvinalissaso26.github.io/)
 
 ## 🛠️ Tecnologías utilizadas
 - HTML5 semántico
