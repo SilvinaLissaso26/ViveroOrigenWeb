@@ -1,0 +1,28 @@
+
+/* ==========================================================================
+    EXTENDS / PLACEHOLDERS REUTILIZABLES (%)
+   ========================================================================== */
+
+/* 1. Sombra base para contenedores y tarjetas */
+%sombra-suave {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* 2. Bordes redondeados estándar */
+%borde-redondeado {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* 3. Formato base para botones o enlaces destacados */
+%boton-base {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}

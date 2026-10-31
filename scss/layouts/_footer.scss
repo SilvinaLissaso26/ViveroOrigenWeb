@@ -1,0 +1,38 @@
+
+/* ==========================================================================
+   6. FOOTER Y REDES SOCIALES
+   ========================================================================== */
+footer {
+    color: rgb(61, 85, 12);
+    background-color: rgb(243, 195, 131);
+    background-image: url("../img/fondo2.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 2rem;
+        padding: 0;
+
+        li {
+            a {
+                img {
+                    transition: transform 0.3s ease, opacity 0.3s ease;
+                }
+
+                &:hover img,
+                &:focus img {
+                    transform: scale(1.15);
+                    opacity: 0.85;
+                }
+            }
+        }
+    }
+}

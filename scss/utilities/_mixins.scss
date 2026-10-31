@@ -1,0 +1,31 @@
+
+/* ==========================================================================
+   MIXINS REUTILIZABLES
+   ========================================================================== */
+
+/* 1. Flexbox para centrar contenido */
+@mixin flex-center($justify: center, $align: center, $gap: 0) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+/* 2. Flexbox en columna */
+@mixin flex-col($align: center, $gap: 1rem) {
+    display: flex;
+    flex-direction: column;
+    align-items: $align;
+    gap: $gap;
+}
+
+/* 3. Transición de escala / zoom para enlaces e imágenes */
+@mixin zoom-hover($scale: 1.1, $duration: 0.3s) {
+    transition: transform $duration ease, opacity $duration ease;
+
+    &:hover,
+    &:focus {
+        transform: scale($scale);
+        opacity: 0.9;
+    }
+}

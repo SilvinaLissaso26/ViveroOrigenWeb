@@ -1,0 +1,16 @@
+
+@use "utilities/variables";
+@use "utilities/mixins";
+@use "utilities/extends";
+
+@use "base/reseteo";
+@use "base/generales";
+
+@use "layouts/header";
+@use "layouts/main";
+@use "layouts/footer";
+
+@use "components/tarjetas";
+
+
+

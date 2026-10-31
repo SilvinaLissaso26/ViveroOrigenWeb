@@ -16,22 +16,32 @@
 </head>
 
 <body>
-    <header>
-            <!-- logo -->
+    <header class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Logo original -->
+            <a class="navbar-brand p-0" href="../index.html">
                 <img src="../img/logo vivero origen.png" alt="logo del vivero">
+            </a>
+            <!-- Botón hamburguesa para mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <!-- Navegacion -->
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="#">Plantas</a></li>
-                <li><a href="./guias.html">Guias</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <!-- Menú colapsable con tu navegación -->
+            <div class="collapse navbar-collapse justify-content-end" id="menuNavegacion">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./nosotros.html">Nosotros</a></li>
+                        <li><a href="./plantas.html">Plantas</a></li>
+                        <li><a href="./guias.html">Guias</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-    </header>  
     
     <main>
         <h1>Las estrellas de nuestro lugar</h1>
