@@ -1,6 +1,6 @@
 
 /* ==========================================================================
-   MIXINS REUTILIZABLES
+    MIXINS REUTILIZABLES
    ========================================================================== */
 
 /* 1. Flexbox para centrar contenido */
@@ -28,4 +28,11 @@
         transform: scale($scale);
         opacity: 0.9;
     }
+}
+
+/* 4. Grilla responsiva configurable */
+@mixin grid-layout($columns: 3, $gap: 1.5rem) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $gap;
 }

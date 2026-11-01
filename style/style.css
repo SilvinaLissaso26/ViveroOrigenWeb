@@ -1,16 +1,29 @@
 @charset "UTF-8";
 /* ==========================================================================
-   MIXINS REUTILIZABLES
+    MIXINS REUTILIZABLES
    ========================================================================== */
 /* 1. Flexbox para centrar contenido */
 /* 2. Flexbox en columna */
 /* 3. Transición de escala / zoom para enlaces e imágenes */
+/* 4. Grilla responsiva configurable */
 /* ==========================================================================
     EXTENDS / PLACEHOLDERS REUTILIZABLES (%)
    ========================================================================== */
 /* 1. Sombra base para contenedores y tarjetas */
 /* 2. Bordes redondeados estándar */
 /* 3. Formato base para botones o enlaces destacados */
+.btn-vivero {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -192,8 +205,31 @@ section {
   color: rgb(255, 255, 255);
 }
 
+figure {
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+figure img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; /* opcional, para que quede prolijo */
+}
+figure figcaption {
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
 /* ==========================================================================
-   6. FOOTER Y REDES SOCIALES
+    6. FOOTER Y REDES SOCIALES
    ========================================================================== */
 footer {
   color: rgb(61, 85, 12);
@@ -279,6 +315,16 @@ footer ul li a:hover img, footer ul li a:focus img {
 .tarjeta-index.tarjeta-3 {
   grid-area: tarjeta3;
   background-color: rgb(249, 111, 41);
+}
+
+/* Botón de Vivero Origen usando el extend */
+.btn-vivero {
+  background-color: #2d6a4f;
+  color: #ffffff;
+}
+.btn-vivero:hover {
+  background-color: #1b4332;
+  transform: translateY(-2px);
 }
 
 /*# sourceMappingURL=style.css.map */

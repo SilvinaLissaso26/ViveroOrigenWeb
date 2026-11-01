@@ -54,3 +54,27 @@ section {
         }
     }
 }
+figure {
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px; /* opcional, para que quede prolijo */
+    }
+
+    figcaption {
+        margin-top: 0.8rem;
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0 1rem;
+        width: 100%;
+    }
+}

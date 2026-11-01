@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="./style/style.css">
     <!--Nombre del sitio y página-->
     <title>Vivero Origen | Inicio</title>
+    <!-- CSS de AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -96,29 +98,30 @@
         <h1>Vivero Origen: tu rincón verde en casa</h1>
 
         <section>
-            <h2>Nuestras especies recomendadas</h2>
-            <div class="contenedor-tarjetas">
-                <article class="tarjeta-index tarjeta-1">
-                    <h3>Sansevieria Trifasciata</h3>
-                    <img src="./img/N.png" alt="plantera con Sansevieria">
-                    <p>Ideal para principiantes y espacios con luz media o baja. Requiere riego mínimo.</p>
-                </article>
+    <h2>Nuestras especies recomendadas</h2>
+    <div class="contenedor-tarjetas">
+        <article class="tarjeta-index tarjeta-1" data-aos="fade-up">
+            <h3>Sansevieria Trifasciata</h3>
+            <img src="./img/N.png" alt="plantera con Sansevieria">
+            <p>Ideal para principiantes y espacios con luz media o baja. Requiere riego mínimo.</p>
+        </article>
 
-                <article class="tarjeta-index tarjeta-2">
-                    <h3>Potus Plateado</h3>
-                    <img src="./img/L.png" alt="potus de hojas plateadas">
-                    <p>Planta colgante de rápido crecimiento y gran resistencia en ambientes interiores. Luz indirecta,
-                        con
-                        escaso requerimiento de agua.</p>
-                </article>
+        <article class="tarjeta-index tarjeta-2" data-aos="fade-up" data-aos-delay="100">
+            <h3>Potus Plateado</h3>
+            <img src="./img/L.png" alt="potus de hojas plateadas">
+            <p>Planta colgante de rápido crecimiento y gran resistencia en ambientes interiores. Luz indirecta,
+                con
+                escaso requerimiento de agua.</p>
+        </article>
 
-                <article class="tarjeta-index tarjeta-3">
-                    <h3>Zamioculca</h3>
-                    <img src="./img/O.png" alt="plantera con Zamioculca">
-                    <p>La preferida para el interior.Requiere luz indirecta, con escaso riego.</p>
-                </article>
-            </div>
-        </section>
+        <article class="tarjeta-index tarjeta-3" data-aos="fade-up" data-aos-delay="200">
+            <h3>Zamioculca</h3>
+            <img src="./img/O.png" alt="plantera con Zamioculca">
+            <p>La preferida para el interior.Requiere luz indirecta, con escaso riego.</p>
+        </article>
+    </div>
+</section>
+
     </main>
 
     <footer>
@@ -139,6 +142,15 @@
         <p>2026 Vivero Origen. Todos los derechos reservados.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Script de AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 800,
+        once: true
+    });
+    </script>
 
 </body>
 </html>
